@@ -1,0 +1,17 @@
+stages:
+  load_data:
+    cmd: python src/stage_01_get_data.py --config=config/config.yaml
+    deps:
+      - src/stage_01_get_data.py
+      - src/utils/utilities.py
+      - config/config.yaml 
+    
+  split_data:
+    cmd: python src/stage_02_split_data.py --config=config/config.yaml --params=params.yaml
+    deps: 
+      - src/stage_02_split_data.py
+      - src/utils/utilities.py
+      - artifacts_dir/raw_local_dir
+    params:
+      - base.random_state
+      - base.split_size 
