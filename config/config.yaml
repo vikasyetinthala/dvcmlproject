@@ -1,0 +1,6 @@
+data_source: C:\Users\krishna\Desktop\Datasets\Breast_cancer_data.csv
+
+artifacts:
+  artifacts_dir: artifacts_dir
+  raw_local_dir: raw_local_dir
+  raw_local_file: raw_local_file

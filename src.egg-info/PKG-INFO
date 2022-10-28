@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: src
+Version: 0.0.1
+Summary: a small package for dvc ml use case
+Home-page: UNKNOWN
+Author: vikas
+Author-email: vikasyetintala07@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >3.7
